@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "wtf",
+  "version": "1.0",
+  "name": "WTF",
+  "description": "the bee Won't Terrible Fly again!",
+  "authors": [
+    "Disy"
+  ],
+  "contact": {
+    "website": "www.starlight.cool"
+  },
+  "license": "MIT",
+  "icon": "assets/wtf/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.starlight.wtf.Main"
+    ]
+  },
+  "mixins": [
+    "wtf.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "1.19.x"
+  }
+}

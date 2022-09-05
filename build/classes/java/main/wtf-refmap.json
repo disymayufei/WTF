@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "cn/starlight/wtf/mixin/BeeMixin": {
+      "isHiveValid": "Lnet/minecraft/class_4466;method_21794()Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "cn/starlight/wtf/mixin/BeeMixin": {
+        "isHiveValid": "Lnet/minecraft/class_4466;method_21794()Z"
+      }
+    }
+  }
+}
