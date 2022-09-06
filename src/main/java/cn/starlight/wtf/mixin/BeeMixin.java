@@ -17,8 +17,6 @@ public abstract class BeeMixin {
     @Shadow
     BlockPos hivePos;
 
-    @Shadow protected abstract boolean doesHiveHaveSpace(BlockPos pos);
-
     @Inject(at = @At("HEAD"), method = "isHiveValid", cancellable = true)
     private void isHiveValidMixin(CallbackInfoReturnable<Boolean> cir){
         if(!((BeeEntity)(Object)this).hasHive()){
